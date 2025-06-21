@@ -32,3 +32,67 @@ body {
 .header img {
     cursor: pointer;
 }
+
+section {
+    width: 100vw;
+    height: 92vh;
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+
+.infos {
+    padding: 2vh 2vw;
+    border-radius: 20px;
+    height: 40vh;
+    width: 20vw;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid rgba(255, 255, 255, 0.085);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.infos span {
+    font-size: 100px;
+    margin-top: 8vh;
+}
+
+.buttons-area {
+    padding-top: 2vh;
+    gap: 1vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-area button{
+   width: 11.5vw;
+   height: 6vh;
+
+   border: 1px solid transparent;
+   border-radius: 15px;
+   color: white;
+   font-size: 30px;
+}
+
+.button-more {
+    background-color: #ed017f86;
+}
+
+.button-less {
+    background-color: #84d4ef89;
+}

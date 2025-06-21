@@ -11,6 +11,29 @@
         <h3 id="currentTime">{{currentTime}}</h3>
     </div>
 
+    <section>
+      <div class="quantity">
+        <div class="infos">
+          <h2>Produzido</h2>
+          <span id="produced">0</span>
+        </div>
+        <div class="buttons-area">
+          <button class="button-more" onclick="produced(true)">+</button>
+          <button class="button-less" onclick="produced(false)">-</button>
+        </div>
+      </div>
+      <div class="quantity">
+        <div class="infos">
+          <h2>Rejeitado</h2>
+          <span id="rejected">0</span>
+        </div>
+        <div class="buttons-area">
+          <button class="button-more" onclick="rejected(true)">+</button>
+          <button class="button-less" onclick="rejected(false)">-</button>
+        </div>
+      </div>
+    </section>
+
   <script src="script.js"></script>
 </body>
 </html>

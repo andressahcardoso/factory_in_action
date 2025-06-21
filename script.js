@@ -28,3 +28,23 @@ btn.addEventListener('click', () => {
         document.exitFullscreen();
     }
 });
+
+function produced(isMore) {
+    let value = Number(document.getElementById('produced').textContent);
+
+    (isMore) ? value++ : value--;
+    if (value < 0)
+        value = 0;
+
+    document.getElementById('produced').textContent = value; 
+}
+
+function rejected(isMore) {
+    let value = Number(document.getElementById('rejected').textContent);
+
+    (isMore) ? value++ : value--;
+     if (value < 0)
+        value = 0;
+    
+    document.getElementById('rejected').textContent = value; 
+}
